@@ -1,0 +1,24 @@
+
+public class Ex02_switch
+{
+
+	public static void main(String[] args)
+	{
+		int n = 4;
+		//조건식에는 이렇게 연산식을 넣어줄 수도 있고 그냥 변수만 넣을수도있음.
+		switch(n % 3)
+		{
+		case 1:
+			System.out.println("나머지가 1");
+			break; // 없으면 다 실행됨.
+		case 2:
+			System.out.println("나머지가 2");
+			break;
+			default:
+				System.out.println("나머지가 0");
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,55 @@
+
+public class Ex05_for
+{
+
+	public static void main(String[] args)
+	{
+		for (int i = 2; i < 10; i++)
+		{
+			System.out.print((2 * i)+ " ");
+		}
+		System.out.println();
+		
+		for (int i = 2; i < 10; i++)
+			System.out.print((3 * i)+ " ");
+		System.out.println();
+		
+		for (int i = 2; i < 10; i++)
+			System.out.print((4 * i)+ " ");
+		System.out.println();
+		
+		for (int i = 2; i < 10; i++)
+			System.out.print((5 * i)+ " ");
+		System.out.println();
+		
+		
+		/*연습문제1) 다음의 출력결과를 보이는 for문을 작성하ㅣ오
+		 * 출력결과
+		 *  0 0 0 1
+		 *  0 0 1 0
+		 *  0 1 0 0
+		 *  1 0 0 0
+		 *  해법 : row와 col를 더해서 5가 될때 1을 출력한다.
+		 */
+		// row는 행에 해당한다.
+		for (int row = 1; row<=4; row ++)
+		{
+			//col 은 열에 해당한다.
+			for (int col = 1; col <= 4; col ++)
+			{
+				if (row==col)
+				{
+					System.out.print("1  ");
+				}else
+				{
+					System.out.print("0  ");
+				}
+			}
+			System.out.println();
+		}
+		
+
+		
+	}
+
+}
